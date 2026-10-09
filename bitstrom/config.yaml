@@ -1,0 +1,32 @@
+name: Bitstrom
+version: "0.1.0"
+slug: bitstrom
+description: Your radio, podcasts and music library, played bit-perfect on the players in your home.
+url: https://github.com/yybd/bitstrom-ha-addon
+arch:
+  - aarch64
+  - amd64
+# Prebuilt multi-arch image; the tag is the version above.
+image: ghcr.io/yybd/bitstrom
+startup: application
+boot: auto
+# Players and media servers are found by multicast (SSDP / mDNS), and
+# players fetch music from the add-on's file server — both need the
+# host network.
+host_network: true
+webui: "http://[HOST]:[PORT:8080]"
+ports:
+  8080/tcp: 8080
+  17771/tcp: 17771
+ports_description:
+  8080/tcp: Bitstrom app and API
+  17771/tcp: File server the players fetch music from
+map:
+  - share:rw
+  - media:ro
+environment:
+  BITSTROM_OPTIONS_FILE: /data/options.json
+options:
+  library_dir: /share/bitstrom
+schema:
+  library_dir: str

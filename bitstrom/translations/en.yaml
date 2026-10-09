@@ -1,0 +1,7 @@
+configuration:
+  library_dir:
+    name: Library folder
+    description: >-
+      The folder that holds bitstrom-library.json and bitstrom-settings.json.
+      Point your other devices at the same folder (a synced folder works well)
+      and they share one library and one set of settings.

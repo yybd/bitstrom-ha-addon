@@ -1,5 +1,5 @@
 name: Bitstrom
-version: "0.1.0"
+version: "0.1.1"
 slug: bitstrom
 description: Your radio, podcasts and music library, played bit-perfect on the players in your home.
 url: https://github.com/yybd/bitstrom-ha-addon
@@ -14,12 +14,12 @@ boot: auto
 # players fetch music from the add-on's file server — both need the
 # host network.
 host_network: true
-webui: "http://[HOST]:[PORT:8080]"
+webui: "http://[HOST]:[PORT:17770]"
 ports:
-  8080/tcp: 8080
+  17770/tcp: 17770
   17771/tcp: 17771
 ports_description:
-  8080/tcp: Bitstrom app and API
+  17770/tcp: Bitstrom app and API
   17771/tcp: File server the players fetch music from
 map:
   - share:rw

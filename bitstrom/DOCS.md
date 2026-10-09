@@ -6,7 +6,7 @@ your home.
 ## How it works
 
 The add-on runs the Bitstrom server. Its web app (the **Open web UI**
-button, or `http://<home-assistant>:8080`) is the full Bitstrom app: your
+button, or `http://<home-assistant>:17770`) is the full Bitstrom app: your
 library, Search (radio directories, podcasts, streaming services, media
 servers, music folders), and the player bar for whichever player you choose.
 
@@ -35,7 +35,7 @@ added in the app under Search → Add or edit sources → Music folders.
 
 The add-on uses the host network: players and media servers are found by
 multicast (SSDP / mDNS), and players must reach the file server. Ports:
-`8080` (app and API) and `17771` (file server).
+`17770` (app and API) and `17771` (file server).
 
 ## Support
 

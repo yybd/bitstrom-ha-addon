@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.3
+
+- Phones can keep their settings in step through the add-on: in the
+  Bitstrom app on a phone, **Settings → Bitstrom server → Sync settings
+  through this server** (off until you turn it on). Players, media servers,
+  Search sources and service settings meet here, even when each device keeps
+  its settings file somewhere else (iCloud on one, Google Drive on another).
+  Passwords and tokens stay on each device.
+- The phone app also finds media servers itself now; an iPhone, which cannot
+  scan the network, asks the add-on to scan for it.
+
 ## 0.1.2
 
 - The add-on announces itself on your network, so the Bitstrom app on a

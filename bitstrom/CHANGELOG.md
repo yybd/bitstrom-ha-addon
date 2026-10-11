@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.4
+
+- The same player added on two devices before they shared settings showed
+  twice; the records are now folded into one on every device, keeping its
+  password and the player in use.
+- Players with a queue of their own (MPD, LMS, Sonos, Chromecast, and Home
+  Assistant entities that queue) are handed the songs that follow, so they
+  play on by themselves.
+
 ## 0.1.3
 
 - Phones can keep their settings in step through the add-on: in the

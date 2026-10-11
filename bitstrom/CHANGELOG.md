@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.6
+
+- Songs handed to a player are named in its queue before they play (MPD,
+  LMS, Sonos, Chromecast, OpenHome), not shown as bare addresses.
+- How many songs a player will still play comes from the player itself, so
+  every device and browser that shows it sees the same count.
+
 ## 0.1.5
 
 - OpenHome renderers (Linn, upmpdcli with OpenHome on, Lumin…) are handed

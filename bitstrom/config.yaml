@@ -1,5 +1,5 @@
 name: Bitstrom
-version: "0.1.6"
+version: "0.1.7"
 slug: bitstrom
 description: Your radio, podcasts and music library, played bit-perfect on the players in your home.
 url: https://github.com/yybd/bitstrom-ha-addon

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7
+
+- Played through the add-on (the browser, the desktop app), a song started
+  from a list hands the player the songs that follow, so it plays on by
+  itself — as it already did from the phone.
+
 ## 0.1.6
 
 - Songs handed to a player are named in its queue before they play (MPD,

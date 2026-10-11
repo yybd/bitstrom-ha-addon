@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.8
+
+- The library syncs through the add-on too: a phone with **Sync settings
+  and library through this server** on sends its songs, stations, podcasts
+  and collections, and gets everyone else's — even when each device keeps
+  its library somewhere else (iCloud, Google Drive).
+- When separate libraries first meet, the same song (by its address) and the
+  same collection (by name) become one.
+
 ## 0.1.7
 
 - Played through the add-on (the browser, the desktop app), a song started

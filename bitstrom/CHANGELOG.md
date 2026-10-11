@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5
+
+- OpenHome renderers (Linn, upmpdcli with OpenHome on, Lumin…) are handed
+  the songs into their own playlist and play on by themselves; one that
+  speaks only OpenHome is found and accepted too.
+
 ## 0.1.4
 
 - The same player added on two devices before they shared settings showed

@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.11
+
+- Internet radio shows what is playing now, where the station says: a radio
+  directory of your own is asked for its now-playing feed (set its address
+  in the directory's settings, `{uuid}` for the station — or leave it empty
+  and the usual place is tried), and any station whose stream server has a
+  status page (Icecast, SHOUTcast) shows the song from there.
+- It shows on every device that watches the add-on, also when the station
+  was started from another device or app.
+- A song the feed itself marks as out of date (a live broadcast while the
+  studio is on air) is not shown as playing.
+
 ## 0.1.8
 
 - The library syncs through the add-on too: a phone with **Sync settings

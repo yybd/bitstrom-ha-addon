@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.14
+
+- Eleven more languages: German, French, Spanish, Italian, Dutch, Japanese,
+  Portuguese (Brazil), Polish, Russian, Arabic and Chinese — beside English
+  and Hebrew. The browser's language is picked up by itself; any other can be
+  chosen under Settings → Language, which now names the language in use.
+- Texts that named screens and buttons by old names now say what the app
+  shows (Search, Local or network folders, Library file…).
+
 ## 0.1.12
 
 - In the player, a Hebrew (or Arabic) line that fits sits on the left, like

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.21
+
+- The sheet that asks which collection to add to also offers **Add to
+  queue** (to the end of what Next steps through) and **Play now** (right
+  after what plays), while a player is connected.
+- Nothing is added twice: before the sheet opens, what is already in the
+  library is found (any spelling of its address) and the sheet says in
+  which collection; only new items are added.
+- radio-browser shows once in Search: the radio-browser address you added
+  as a radio source, not the built-in one beside it.
+
 ## 0.1.19
 
 - **Add a radio station source** (was "Add radio address"): two more open

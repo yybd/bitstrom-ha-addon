@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.19
+
+- **Add a radio station source** (was "Add radio address"): two more open
+  station lists to add — moOde's station list and Recommended radio streams
+  (deroverda). A station a source may block outside its country says so.
+- A source or a station already added is not added twice; the screen says so.
+- Stations whose address is a playlist (.pls / .m3u) now play on every
+  player: the stream inside the playlist is handed over.
+- UPnP / OpenHome players: an episode resumed from a position starts there,
+  and a seek the player refuses while it opens the stream is asked again.
+- Qobuz: sign-in keeps working when Qobuz changes its app id and keys.
+
 ## 0.1.18
 
 - Eleven more languages: German, French, Spanish, Italian, Dutch, Japanese,

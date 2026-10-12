@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.18
+
+- Eleven more languages: German, French, Spanish, Italian, Dutch, Japanese,
+  Portuguese (Brazil), Polish, Russian, Arabic and Chinese, beside English
+  and Hebrew. Settings → Language names the language in use.
+- SomaFM is gone: its terms (September 2026) allow no third-party apps.
+- "Custom radio directory" is now **Add radio address**. Under it, ready
+  addresses to tap: radio-browser, Radio Paradise, KEXP, NTS, WFMU, the
+  Icecast directory and the audiophile picks — an address saved there puts
+  that source in Search. The built-in radio sources are no longer listed
+  among the sources to add.
+- Every radio directory you added (name, address, now-playing address)
+  travels in the shared settings file to your other devices.
+
 ## 0.1.14
 
 - Eleven more languages: German, French, Spanish, Italian, Dutch, Japanese,

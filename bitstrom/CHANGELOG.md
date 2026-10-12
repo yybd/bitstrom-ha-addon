@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.12
+
+- In the player, a Hebrew (or Arabic) line that fits sits on the left, like
+  every other language; only a line too long to fit starts from the right
+  and scrolls.
+
 ## 0.1.11
 
 - Internet radio shows what is playing now, where the station says: a radio

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1
+
+- The add-on no longer restarts every minute and a half. Its health check
+  was refused (it asked `localhost`, which now means IPv6 first), so Home
+  Assistant's watchdog kept restarting it.
+- Stopping and updating the add-on is immediate: it shuts down cleanly
+  instead of being killed after a timeout.
+
 ## 1.0.0
 
 - **Bitstrom in the sidebar.** The add-on opens inside Home Assistant

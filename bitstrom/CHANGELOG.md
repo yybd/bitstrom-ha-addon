@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.0
+
+- **Bitstrom in the sidebar.** The add-on opens inside Home Assistant
+  (ingress): from the sidebar or **Open web UI**, behind Home Assistant's
+  sign-in, and also over https and Nabu Casa — away from home too. The
+  address `http://<home-assistant>:17770` keeps working on the home network.
+- **The dashboard card** ([Bitstrom card](https://github.com/yybd/bitstrom-card),
+  in HACS) finds the add-on by itself, and can show the player bar alone or
+  open on one type and collection.
+- After an update, the browser loads the new app instead of keeping the old
+  one.
+- Jamendo: every track links to its page on Jamendo — in the results, the
+  item menu and Now Playing.
+- Search: HQ radio streams (Pulham's FLAC and 320k list); the Audiophile
+  picks list is gone. **Add one item by URL** opens in the Search window,
+  and every row to add says "Add …".
+- Settings: a Privacy policy row.
+
 ## 0.1.21
 
 - The sheet that asks which collection to add to also offers **Add to

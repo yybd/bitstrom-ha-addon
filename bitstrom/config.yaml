@@ -1,5 +1,5 @@
 name: Bitstrom
-version: "0.1.21"
+version: "1.0.0"
 slug: bitstrom
 description: Your radio, podcasts and music library, played bit-perfect on the players in your home.
 url: https://github.com/yybd/bitstrom-ha-addon
@@ -14,7 +14,13 @@ boot: auto
 # players fetch music from the add-on's file server — both need the
 # host network.
 host_network: true
-webui: "http://[HOST]:[PORT:17770]"
+# The app in Home Assistant's sidebar and behind its sign-in, also over
+# https and Nabu Casa. The ports below stay open for the home network: the
+# Bitstrom phone and desktop apps, and the players fetching music.
+ingress: true
+ingress_port: 17770
+panel_icon: mdi:radio
+panel_title: Bitstrom
 ports:
   17770/tcp: 17770
   17771/tcp: 17771

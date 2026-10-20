@@ -31,11 +31,23 @@ keys stay where they were entered.
 **Music folders.** Folders under `/media` (read-only) and `/share` can be
 added in the app under Search → Add or edit sources → Music folders.
 
+## Opening Bitstrom
+
+- **In Home Assistant:** the **Bitstrom** item in the sidebar, or **Open
+  web UI** on the add-on's page. This works wherever Home Assistant does —
+  over https and Nabu Casa too — and needs a Home Assistant administrator.
+- **On the dashboard:** the [Bitstrom card](https://github.com/yybd/bitstrom-card)
+  (HACS) finds the add-on by itself; it can show the whole app, or the player
+  bar alone.
+- **On the home network:** `http://<home-assistant>:17770`, and the Bitstrom
+  phone and desktop apps find the add-on by themselves.
+
 ## Network
 
 The add-on uses the host network: players and media servers are found by
 multicast (SSDP / mDNS), and players must reach the file server. Ports:
-`17770` (app and API) and `17771` (file server).
+`17770` (app and API — also what the sidebar opens) and `17771` (file
+server).
 
 ## Support
 

@@ -16,7 +16,11 @@ desktop app (macOS, Windows) and as a Docker image.
 3. Find **Bitstrom** in the store, open it and press **Install**.
 4. On the **Configuration** tab, check the library folder (default
    `/share/bitstrom`), then **Start**.
-5. Press **Open web UI** (or browse to `http://<home-assistant>:17770`).
+5. Open **Bitstrom** in the sidebar (or press **Open web UI**). On the
+   home network, `http://<home-assistant>:17770` works too.
+
+For the dashboard there is the [Bitstrom card](https://github.com/yybd/bitstrom-card)
+(HACS): the whole app, or the player bar alone.
 
 See [the add-on documentation](bitstrom/DOCS.md) for details.
 

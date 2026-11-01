@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2
+
+- A paused radio station plays again when resumed; before, it played what had
+  been buffered for about a minute and then stopped.
+- A radio station whose stream drops is opened again by itself, up to three
+  tries, on players that report the drop (MPD, the browser).
+
 ## 1.0.1
 
 - The add-on no longer restarts every minute and a half. Its health check
